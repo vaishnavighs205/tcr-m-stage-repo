@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tcr-m-stage-repo"
+version = "0.1.0"
+description = "Exploratory analysis of TCR diversity metrics by metastatic stage."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  {name = "OpenAI scaffold for user dataset"}
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
